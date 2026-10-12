@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Dataset
+customer_churn.csv
+
+# Large trained model
+artifacts/*.pkl
+
+# Environment secrets
+.env
+
+# Local backup files
+app1.py
+app2.py
+app_backup.py
